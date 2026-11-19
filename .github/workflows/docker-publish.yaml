@@ -20,7 +20,7 @@ jobs:
 
       - name: build docker image
         run: |
-          docker build -t {{secrets.DOCKERHUB_USERNAME}}/ici-action:1.21 .
+          docker build -t ${{secrets.DOCKERHUB_USERNAME}}/ici-action:1.21 .
       
       - name: push docker image
         run: |
