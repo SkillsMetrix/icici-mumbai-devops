@@ -1,1 +1,0 @@
-# icici-mumbai-devops
