@@ -8,3 +8,7 @@ def welcomeMessage():
 @app.get("/login")
 def loginApp():
     return {"message":"Welcome to Login Page"}
+
+@app.get("/register")
+def registerApp():
+    return {"message":"Welcome to Registration Page"}
